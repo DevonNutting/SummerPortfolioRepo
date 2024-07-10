@@ -153,3 +153,7 @@ that are inside the tab-contents class */
 .tab-contents{
     display: none;
 }
+
+.tab-contents.active-tab {
+    display: block;
+}
