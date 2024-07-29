@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devon's Professional Portfolio</title>
+    <title>DevonProfessionalPortfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/721a81044a.js" crossorigin="anonymous"></script>
 </head>
@@ -40,7 +40,7 @@
 
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1> 
-                    <p>
+                    <p id="bio">
                         I am born and raised in the Bay Area, and I have alwasy had a passion
                         for game development!
                     </p> 
@@ -49,6 +49,7 @@
                         <p class="tab-links active-link" onclick="OpenTab('skills')">Skills</p>
                         <p class="tab-links" onclick="OpenTab('exp')">Experience</p>
                         <p class="tab-links" onclick="OpenTab('edu')">Education</p>
+                        <p class="tab-links" onclick="OpenTab('hobbies')">Hobbies</p>
                     </div>
 
                     <!--------SKILLS---------->
@@ -78,6 +79,14 @@
                         </ul>
                     </div>
 
+                    <!--------Hobbies---------->
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Hobby 1</span><br>Cooking</li>
+                            <li><span>Hobby 2</span><br>Calisthenics</li>
+                        </ul>
+                    </div>
+
                 </div>
                 
             </div>
@@ -95,28 +104,35 @@
                 <i class="fa-solid fa-gamepad"></i>
                 <h2>Game Design</h2>
                 <p>Services 1 paragraph</p>
-                <a href="#">learn more</a>
+                <a href="services.html">learn more</a>
             </div>
 
             <div>
                 <i class="fa-solid fa-laptop-code"></i>
                 <h2>Systems Engineer</h2>
                 <p>Services 2 paragraph</p>
-                <a href="#">learn more</a>
+                <a href="services.html">learn more</a>
             </div>
 
             <div>
                 <i class="fa-solid fa-bars-progress"></i>
                 <h2>Project Management</h2>
                 <p>Services 3 paragraph</p>
-                <a href="#">learn more</a>
+                <a href="services.html">learn more</a>
             </div>
 
             <div>
                 <i class="fa-solid fa-chalkboard-user"></i>
                 <h2>Game Dev Tutoring</h2>
                 <p>Services 4 paragraph</p>
-                <a href="#">learn more</a>
+                <a href="services.html">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h2>Youth Mentorship</h2>
+                <p>Services 5 paragraph</p>
+                <a href="services.html">learn more</a>
             </div>
         </div>
 
@@ -152,7 +168,7 @@
             </div>
 
             <div class="work">
-                <img src="images/mywork3.png">
+                <img src="images/mywork3.png" id="work-img">
 
                 <div class="layer">
                     <h3>Work 3</h3>
